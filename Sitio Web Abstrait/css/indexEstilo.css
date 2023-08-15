@@ -26,7 +26,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 85vh; 
+    /*min-height: 85vh; */
 }
 
 footer{
@@ -97,3 +97,61 @@ a{
 }
 
 /* DESDE AQUÍ COMENZAR A EDITAR PARA ABAJO, NO TOCAR LO DE ARRIBA */
+
+.card-title{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.card-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    color: dimgrey;
+
+}
+
+.info{
+    text-align: center;
+    font-size: xx-large;
+}
+.border-radius-20 {border-radius: 1.25rem;}
+.box-style {border: 1px solid #E2E2E2;}
+
+#cosaVerde{
+    border: 1px solid #E2E2E2;
+    border-radius: 1.25rem;
+    background-color: #525D51;
+}
+#DemoCarrousel.carousel.slide {
+    width: 100%;
+    max-width: 920px!important;
+}
+
+.colcom{
+
+    text-align: center;
+    top: 90px;
+    padding: 5%;
+    height: 70%;
+    border-style: ridge;
+    border-width: thin;
+    border-color: #000000;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    
+}
+.usuarioF{
+padding: 15%;
+width: 95%;
+
+
+    }
+
+    .ej{
+        display: flex;
+    }
